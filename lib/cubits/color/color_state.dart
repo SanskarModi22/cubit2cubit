@@ -9,6 +9,7 @@ class ColorState extends Equatable {
   factory ColorState.initial() {
     return ColorState(color: Colors.red);
   }
+  //Initial State 
 
   @override
   List<Object> get props => [color];

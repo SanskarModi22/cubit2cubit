@@ -7,6 +7,7 @@ part 'color_state.dart';
 class ColorCubit extends Cubit<ColorState> {
   ColorCubit() : super(ColorState.initial());
 
+  //function to change the state of color
   void changeColor() {
     if (state.color == Colors.red) {
       emit(state.copyWith(color: Colors.green));
